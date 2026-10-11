@@ -1,6 +1,6 @@
-package ArrayList;
-import java.util.ArrayList;
-import java.util.Iterator;
+package List.ArrayList;
+
+import java.util.*;
 
 public class Index {
     public static void main(String[] args) {
@@ -8,11 +8,14 @@ public class Index {
         list.add(1);
         list.add(2);
         list.add(3);
-System.out.println(list);
+        System.out.println(list);
+        Collections.sort(list);
         Iterator<Integer> iterator = list.iterator();
 
-        while( iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+//
     }
 }

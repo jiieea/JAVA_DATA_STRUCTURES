@@ -8,7 +8,7 @@ public class Main {
         hashSet.add(2);
         hashSet.add(3);
         System.out.println(hashSet);
-        System.out.println(hashSet.contains(5));
+        System.out.println(hashSet.contains(5)); // return boolean value
 
         for(int i = 0; i < 10; i++) {
             if(hashSet.contains(i)) {
